@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (currentStep > steps.length-1) {
                 clearInterval(interval);
             }
-        }, 43200000); // Update every 3 seconds for demonstration
+        }, 4320); // Update every 3 seconds for demonstration
     }
 
     simulateProgress();
